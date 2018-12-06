@@ -1,252 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title> Perkins Woods </title>
-    <link rel="icon" href="trees.png" >
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome!</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#maps">Maps</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#charts">Charts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
-          <h1 class="text-white-50 mx-auto my-0 text-uppercase">Perkins Woods</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-4">A Tree Inventory of the various species in this corner of Glenview IL.</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
-        </div>
-      </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="about-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-white  mt-9 mb-4">About Perkins</h2>
-            <p class="text-white-50 mx-auto mt-2 mb-4">Perkins Woods is a 7.5 acre woodland remnant of what use to be apart of "The Big Woods" of Evanston.  The dominance, density and frequency of Basswoods and Silver Maples recorded on site during GES 327 quarter point evaluations in 2018 indicate a Wet Forest community (Chicago Wilderness Atlas of Biodiversity, 1999.) </p>
-            <p  <a href="http://fpdcc.com/tag/perkins-woods/" class="text-white-50 ">FOTFP.</a> This link takes you to the Friends of the Forest Preserve webpage to an article written about Siberian squill located within the woods.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="maps" class="maps-section bg-light">
-      <div class="container">
-      <div class="text-center mb-4 mb-lg-5"> <h1> Maps </h1> </div>
-
-        <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-          <iframe src="https://cmtilley1.github.io/Zika2016/" height="510" width="700" </ alt=""> </iframe>
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Map 1</h4>
-              <p class="text-black-50 mb-0">Through the use of HTML coding and work on QGIS Sam has created a map that allows all of the different species of trees that was inventoried at Perkins to be displayed.
-              We sought to create an interactive map that allows the user to select which species of trees they wish to display by creating a different layer for each species of tree. With this, users can look at the various frequency and densities of different tree species in this area.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-            <iframe src="https://cmtilley1.github.io/GrossInflow_Cookcounty/" style="float:right" height="510" width="700" </ alt=""> </iframe>
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Map 2</h4>
-              <p class="text-black-50 mb-0">This map can be used to repsent the change in species diversity from 1990 to 2018</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
+<html>
+<head>
+    <title>ChartJS - Doughnut</title>
 
 
-        <!-- Project One Row -->
-      <section id="charts" class="charts-section bg-light">
-      <div class="container">
-        <div class="text-center mb-4 mb-lg-5"> <h1> Charts </h1> </div>
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <iframe src="https://cmtilley1.github.io/GrossInflow_Cookcounty/" height="505" width="555" </ alt=""> </iframe>
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Chart 1</h4>
-                  <p class="mb-0 text-white-50">Placeholder.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Load c3.css -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.css" rel="stylesheet">
 
+<!-- Load d3.js and c3.js -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+</head>
+<body>
+<div id="chart">
+<!-- <img src="treerings.jpg" alt= "" height="42" width= "42"></div> -->
 
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <iframe src="https://cmtilley1.github.io/GrossInflow_Cookcounty/" height="505" width="555" </ alt=""> </iframe>
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Chart 2</h4>
-                  <p class="mb-0 text-white-50">Placeholder</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <script>
 
-    <!-- Signup Section -->
-    <section id="signup" class="signup-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
+    c3.generate({
 
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 class="text-white mb-5">Add email for access to map files!</h2>
+        bindto: '#chart',  // id of the chart div, as defined earlier
 
-            <form class="form-inline d-flex">
-              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-              <button type="submit" class="btn btn-primary mx-auto">I Want</button>
-            </form>
+        size: {  // size (height and width) of the chart, by pixels
+            height: 350,
+            width: 350
+        },
 
-          </div>
-        </div>
-      </div>
-    </section>
+        title:{
+            text: "Species Composition 2018" // Use the NAME attribute as chart title
+                              // This is displayed above the chart
+                              // You may use other strings, HTML elements or combined
+        },
 
-    <!-- Contact Section -->
-    <section class="contact-section bg-black">
-      <div class="container">
+        data: {
+            // Define the actual data
+            // I use the attribute values as data for making the charts
+            // The strings are labels of the charts (shown in legend)
+            columns: [
+                ['Oaks', 19],
+                ['Maples', 29],
+                ['Ash', 2],
+                ['Basswood', 33],
+                ['Hickory', 4],
+                ['Elm',8],
+                ['Box Elder',4],
 
-        <div class="row">
+            ],
 
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Address</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">2353 Ewing Ave, Glenview, Illinois </div>
-              </div>
-            </div>
-          </div>
+            type: 'donut',  // chart type
+        },
+        tooltip: {
+          	contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+            for (i = 0; i < d.length; i++) {
+            	return d[i].name === 'Oaks'? '<img src="oaktree.jpeg" alt="oak" width="250">':
+             d[i].name == 'Maples'?' <img src="mapletree.jpeg" alt="Maple" width="250">':
+             d[i].name == 'Ash'? '<img src="ashtreee.jpeg" alt= "Ash" width="250">':
+             d[i].name == 'Basswood'? '<img src="basswood2.jpeg" alt="basswood" width="250">':
+             d[i].name == 'Hickory'? '<img src="shagbark.jpeg" alt="Hickory" width="250">':
+             d[i].name == 'Elm'? '<img src="elmtree.jpg" alt="Elms" width="250">':
+                              '<img src="boxelder.jpeg" alt="Box Elder" width="250">';
+      }
+         }
+       },
 
-        <!--  <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">
-                  <a href="#">cmtilley@neiu.edu</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        // donut:{ // options to customize the donut chart
+        //     label: {
+        //         show: false // set to not show labels on the segments (too busy)
+        //     },
+        //     width: 30  // width of donut
+        // },
 
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Phone</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">+1 (555) 902-8832</div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-     <div class="social d-flex justify-content-center">
-        <!--  <a href="#" class="mx-2">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="fab fa-facebook-f"></i>
-          </a>-->
-          <a href="#" class="mx-2">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        Copyright &copy; Your Website 2018
-        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-
-  </body>
-
+        color:{ // colors of donut segments, same order as the data
+            pattern:["#0fcc61","#cccc00","#9ACD32","#9cad83","#006666","#29b8a3","#4D5360",]
+        }
+    });
+</script>
+</body>
 </html>
